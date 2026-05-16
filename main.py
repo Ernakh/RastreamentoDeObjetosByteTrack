@@ -10,6 +10,23 @@
 #rastrear pessoas, biciletas, carros e motos (classes 0,1, 2,3):
 #python main.py --source video.mp4 --classes 1 --save
 
+#full
+#python main.py --source video2.mp4 --classes 0,1,2,3,5,7,16,17 --save
+
+
+# Os modelos YOLO pré-treinados geralmente utilizam classes do conjunto COCO. Algumas classes comuns são:
+
+# | ID | Classe |
+# |---:|--------|
+# | 0 | pessoa |
+# | 1 | bicicleta |
+# | 2 | carro |
+# | 3 | moto |
+# | 5 | ônibus |
+# | 7 | caminhão |
+# | 16 | cachorro |
+# | 17 | cavalo |
+
 import argparse
 from dataclasses import dataclass, field
 from typing import List, Dict, Tuple, Optional
