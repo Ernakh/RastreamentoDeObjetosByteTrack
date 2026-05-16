@@ -1,4 +1,3 @@
-````markdown
 # Rastreamento de Objetos com Visão Computacional e Deep Learning
 
 Este repositório apresenta uma implementação em Python para **rastreamento de múltiplos objetos em vídeo**, utilizando **Visão Computacional**, **Deep Learning**, **YOLO**, **OpenCV** e uma estratégia própria de associação inspirada no artigo **ByteTrack: Multi-Object Tracking by Associating Every Detection Box**.
