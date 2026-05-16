@@ -130,36 +130,8 @@ Essa estratégia ajuda a reduzir perdas de rastreamento em situações complexas
 
 ---
 
-## Estrutura do projeto
-
-A estrutura sugerida do projeto é:
-
-```text
-rastreamento-objetos-yolo/
-│
-├── main.py
-├── README.md
-├── requirements.txt
-│
-└── videos/
-    └── video.mp4
-```
-
----
-
 ## Instalação
 
-Clone este repositório:
-
-```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-```
-
-Acesse a pasta do projeto:
-
-```bash
-cd NOME-DO-REPOSITORIO
-```
 
 Crie um ambiente virtual:
 
@@ -180,29 +152,9 @@ source .venv/bin/activate
 Instale as dependências:
 
 ```bash
-pip install -r requirements.txt
-```
-
-Caso ainda não tenha criado o arquivo `requirements.txt`, instale manualmente:
-
-```bash
 pip install ultralytics opencv-python scipy numpy
 ```
 
----
-
-## Arquivo requirements.txt
-
-Crie um arquivo chamado `requirements.txt` com o seguinte conteúdo:
-
-```text
-ultralytics
-opencv-python
-scipy
-numpy
-```
-
----
 
 ## Como executar
 
@@ -515,20 +467,6 @@ python main.py --source video.mp4 --model yolo11n.pt --classes 0
 Modelos menores tendem a ser mais rápidos, enquanto modelos maiores podem apresentar melhor precisão.
 
 ---
-
-## Possível aplicação acadêmica
-
-Este projeto pode ser utilizado como base para um trabalho acadêmico com o seguinte tema:
-
-**Implementação e análise de um rastreador de múltiplos objetos baseado em YOLO e associação por IoU**
-
-### Possível problema de pesquisa
-
-Como um rastreador simples baseado em detecção por deep learning e associação por IoU se comporta em diferentes cenários de vídeo?
-
-### Possível objetivo geral
-
-Implementar e analisar um sistema de rastreamento de múltiplos objetos utilizando YOLO e uma estratégia de associação inspirada no ByteTrack.
 
 ### Possíveis objetivos específicos
 
