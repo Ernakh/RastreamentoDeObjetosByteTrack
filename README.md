@@ -528,5 +528,3 @@ ZHANG, Yifu et al. **ByteTrack: Multi-Object Tracking by Associating Every Detec
 ## Licença
 
 Este projeto é disponibilizado para fins acadêmicos e educacionais.
-
-````
